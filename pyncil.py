@@ -32,9 +32,4 @@ class SlowMath:
 
 s = SlowMath()
 
-num = "23738295234897589034759278"
 
-for i in range(10000000):
-   num = s.add((num, num))
-
-print(num)
